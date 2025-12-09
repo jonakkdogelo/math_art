@@ -1,2 +1,2 @@
 # math_art
-Vários códigos sobre matemática e a sua arte 
+Vários códigos sobre matemática e a sua arte, o main é simplesmente resolver uma função quadratica incluindo complexos como possibilidade, depois a regra de ruffini divide um polinomio por outro simples, o pascal é o triangulo de pascal, depois temos o tree uma representação de ganhos de arvore que crescem com angulos iguais, o circule um circulo onde pontos fazem conexão com linhas, tecla w para adicionar e s para retirar, e por fim o magnifico conjuto de madelbroot que teoricamente é infinito mas no pc não, ainda há imgagens disto em https://drive.google.com/drive/folders/1q_LjWOuMbfMG8JUrEYvgmDDRjv1M_xSu?usp=drive_link e em https://drive.google.com/drive/folders/15OwNaCaYhIt_b0TSHhCJePzxcDQkGFHP?usp=drive_link

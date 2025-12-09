@@ -1,0 +1,25 @@
+import math
+
+def resolver(a,b,c,d,e,Y):
+    A = a
+    B = (Y*A)+b
+    C = (Y*B)+c
+    D = (Y*C)+d
+    E = (Y*D)+e
+    return [A,B,C,D,E]
+
+xquarta = 0
+xcubo = 1     
+xquadrado = 6
+x = 12
+termo = 8 #termo independete
+divisor = 2
+
+listasolução = resolver(xquarta,xcubo,xquadrado,x,termo,-divisor) #ax**3 + bx**2 + cx + d, Y é o divisor e o ultimo numero da solução é o resto
+#print(listasolução)
+print('dividendo: %d*x^4 + %d*x^3 + %d*x^2 + %d*x + %d'%(xquarta,xcubo,xquadrado,x,termo))
+print('divisor: x + %d'%(divisor))
+print("quociente: %d*x^3 %d*x^2 + %d*x + %d"%(listasolução[0],listasolução[1],listasolução[2],listasolução[3]))
+print('resto: %d'%(listasolução[4]))
+if listasolução[4] == 0:
+    print('o dividendo é divisivel pelo divisor')
